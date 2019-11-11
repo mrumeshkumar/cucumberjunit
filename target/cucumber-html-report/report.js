@@ -43,14 +43,14 @@ formatter.match({
   "location": "CalculatoeStepDefs.I_have_a_calc_with(int,int)"
 });
 formatter.result({
-  "duration": 150489900,
+  "duration": 171359700,
   "status": "passed"
 });
 formatter.match({
   "location": "CalculatoeStepDefs.I_ask_it_to_say_add()"
 });
 formatter.result({
-  "duration": 31800,
+  "duration": 67401,
   "status": "passed"
 });
 formatter.match({
@@ -63,7 +63,7 @@ formatter.match({
   "location": "CalculatoeStepDefs.it_should_answer_with_add(int)"
 });
 formatter.result({
-  "duration": 2248800,
+  "duration": 110600,
   "status": "passed"
 });
 formatter.scenario({
@@ -103,14 +103,14 @@ formatter.match({
   "location": "CalculatoeStepDefs.I_have_a_calc_with(int,int)"
 });
 formatter.result({
-  "duration": 163200,
+  "duration": 149501,
   "status": "passed"
 });
 formatter.match({
   "location": "CalculatoeStepDefs.I_ask_it_to_say_subtract()"
 });
 formatter.result({
-  "duration": 31700,
+  "duration": 19399,
   "status": "passed"
 });
 formatter.match({
@@ -123,7 +123,7 @@ formatter.match({
   "location": "CalculatoeStepDefs.it_should_answer_with_sub(int)"
 });
 formatter.result({
-  "duration": 96200,
+  "duration": 427100,
   "status": "passed"
 });
 formatter.scenario({
@@ -163,14 +163,14 @@ formatter.match({
   "location": "CalculatoeStepDefs.I_have_a_calc_with(int,int)"
 });
 formatter.result({
-  "duration": 152900,
+  "duration": 118599,
   "status": "passed"
 });
 formatter.match({
   "location": "CalculatoeStepDefs.I_ask_it_to_say_multiply()"
 });
 formatter.result({
-  "duration": 26000,
+  "duration": 19700,
   "status": "passed"
 });
 formatter.match({
@@ -183,7 +183,7 @@ formatter.match({
   "location": "CalculatoeStepDefs.it_should_answer_with_mul(int)"
 });
 formatter.result({
-  "duration": 90400,
+  "duration": 131300,
   "status": "passed"
 });
 formatter.scenario({
@@ -223,14 +223,14 @@ formatter.match({
   "location": "CalculatoeStepDefs.I_have_a_calc_with(int,int)"
 });
 formatter.result({
-  "duration": 157800,
+  "duration": 160899,
   "status": "passed"
 });
 formatter.match({
   "location": "CalculatoeStepDefs.I_ask_it_to_say_divide()"
 });
 formatter.result({
-  "duration": 29700,
+  "duration": 28700,
   "status": "passed"
 });
 formatter.match({
@@ -243,7 +243,7 @@ formatter.match({
   "location": "CalculatoeStepDefs.it_should_answer_with_div(int)"
 });
 formatter.result({
-  "duration": 101400,
+  "duration": 101599,
   "status": "passed"
 });
 });
