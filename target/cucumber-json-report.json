@@ -1,0 +1,260 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 2,
+        "name": "calculate add",
+        "description": "",
+        "id": "calculator;calculate-add",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 150489900,
+              "status": "passed"
+            },
+            "line": 3,
+            "name": "I have a calc with 12 3",
+            "match": {
+              "arguments": [
+                {
+                  "val": "12",
+                  "offset": 19
+                },
+                {
+                  "val": "3",
+                  "offset": 22
+                }
+              ],
+              "location": "CalculatoeStepDefs.I_have_a_calc_with(int,int)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 31800,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "I ask it to say add",
+            "match": {
+              "location": "CalculatoeStepDefs.I_ask_it_to_say_add()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2248800,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "it should answer with add 15",
+            "match": {
+              "arguments": [
+                {
+                  "val": "15",
+                  "offset": 26
+                }
+              ],
+              "location": "CalculatoeStepDefs.it_should_answer_with_add(int)"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 6,
+        "name": "calculate subtract",
+        "description": "",
+        "id": "calculator;calculate-subtract",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 163200,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I have a calc with 12 3",
+            "match": {
+              "arguments": [
+                {
+                  "val": "12",
+                  "offset": 19
+                },
+                {
+                  "val": "3",
+                  "offset": 22
+                }
+              ],
+              "location": "CalculatoeStepDefs.I_have_a_calc_with(int,int)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 31700,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I ask it to say subtract",
+            "match": {
+              "location": "CalculatoeStepDefs.I_ask_it_to_say_subtract()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 96200,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "it should answer with sub 9",
+            "match": {
+              "arguments": [
+                {
+                  "val": "9",
+                  "offset": 26
+                }
+              ],
+              "location": "CalculatoeStepDefs.it_should_answer_with_sub(int)"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 10,
+        "name": "calculate multiply",
+        "description": "",
+        "id": "calculator;calculate-multiply",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 152900,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "I have a calc with 12 3",
+            "match": {
+              "arguments": [
+                {
+                  "val": "12",
+                  "offset": 19
+                },
+                {
+                  "val": "3",
+                  "offset": 22
+                }
+              ],
+              "location": "CalculatoeStepDefs.I_have_a_calc_with(int,int)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 26000,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "I ask it to say multiply",
+            "match": {
+              "location": "CalculatoeStepDefs.I_ask_it_to_say_multiply()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 90400,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "it should answer with mul 36",
+            "match": {
+              "arguments": [
+                {
+                  "val": "36",
+                  "offset": 26
+                }
+              ],
+              "location": "CalculatoeStepDefs.it_should_answer_with_mul(int)"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 14,
+        "name": "calculate divide",
+        "description": "",
+        "id": "calculator;calculate-divide",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 157800,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "I have a calc with 12 3",
+            "match": {
+              "arguments": [
+                {
+                  "val": "12",
+                  "offset": 19
+                },
+                {
+                  "val": "3",
+                  "offset": 22
+                }
+              ],
+              "location": "CalculatoeStepDefs.I_have_a_calc_with(int,int)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 29700,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "I ask it to say divide",
+            "match": {
+              "location": "CalculatoeStepDefs.I_ask_it_to_say_divide()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 101400,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "it should answer with div 4",
+            "match": {
+              "arguments": [
+                {
+                  "val": "4",
+                  "offset": 26
+                }
+              ],
+              "location": "CalculatoeStepDefs.it_should_answer_with_div(int)"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Calculator",
+    "description": "",
+    "id": "calculator",
+    "keyword": "Feature",
+    "uri": "test/cucumber/calc/Calc.feature"
+  }
+]
